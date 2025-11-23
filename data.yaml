@@ -1,0 +1,13 @@
+train: /content/drive/MyDrive/PFA/data_drive/train/images
+val: /content/drive/MyDrive/PFA/data_drive/valid/images
+test: /content/drive/MyDrive/PFA/data_drive/test/images
+
+nc: 2
+names: ['ledOFF', 'ledON']
+
+roboflow:
+  workspace: nouha
+  project: pfa-agpz2
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/nouha/pfa-agpz2/dataset/1
